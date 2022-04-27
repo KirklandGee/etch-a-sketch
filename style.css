@@ -18,3 +18,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.grid-square:hover {
+    background-color: black;
+}
+
+.slidecontainer {
+    padding: 20px;
+    margin-top: 20px;
+}

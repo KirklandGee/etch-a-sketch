@@ -25,3 +25,11 @@ function createFullGrid (numOfSquares) {
     
 }
 createFullGrid(16)
+
+const gridSquares = document.querySelectorAll('.grid-squares')
+
+gridSquares.forEach(element => {
+    element.addEventListener('mouseover', () => {
+        gridSquares.style.backgroundColor = 'black'
+    })
+})
